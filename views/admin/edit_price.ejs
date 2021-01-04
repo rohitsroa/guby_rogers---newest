@@ -1,0 +1,31 @@
+<%- include('../_layouts/adminheader') %>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/adminstyle.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdn.ckeditor.com/4.6.2/standard-all/ckeditor.js"></script>
+<h2 class="page-title">Edit a price</h2>
+<a href="/admin/prices" class="btn btn-primary">Back to prices</a>
+<br><br>
+<script src="/js/main1.js"></script>
+<form method="post" action="/admin/prices/edit-price/<%= id %>">
+
+    <div class="form-group">
+        <label for="">Title</label>
+        <input type="text" class="form-control" name="title" value="<%= title %>" placeholder="title">
+    </div>
+    <div class="form-group">
+        <label for="">Price</label>
+        <input type="text" class="form-control" name="amount" value="<%= amount %>" placeholder="amount">
+    </div>
+    <button class="btn btn-default">Submit</button>
+</form>
+
+<p class="text-center">&COPY; Guby Rogers</p>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdn.ckeditor.com/4.7.1/standard/ckeditor.js"></script>
+    <script src="/js/main.js"></script>

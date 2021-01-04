@@ -1,0 +1,76 @@
+<%- include('../_layouts/adminheader') %>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/adminstyle.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdn.ckeditor.com/4.6.2/standard-all/ckeditor.js"></script>
+<script src="/js/main1.js"></script>
+<style>
+    table {
+      width:100%;
+    }
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 15px;
+      text-align: left;
+    }
+    #t01 tr:nth-child(even) {
+      background-color: #eee;
+    }
+    #t01 tr:nth-child(odd) {
+     background-color: #fff;
+    }
+    #t01 th {
+      background-color: black;
+      color: white;
+    }
+    </style>
+
+    <h2 class="page-title">Package Prices</h2>
+    <table id="t01">
+
+    <thead>
+        <tr class="home">
+            <th>Title</th>
+            <th>Prices</th>
+            <th>Edit Prices</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% prices.forEach(function(price){ %>
+            <tr id="id_<%= price._id %>" class="<%= price._id %>">
+                <td><%= price.title %></td>
+                <td><%= price.amount %></td>
+                <td><a href="/admin/prices/edit-price/<%= price._id %>">Edit</a></td>
+            </tr>
+        <% }); %>
+    </tbody>
+</table>
+
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+<script>
+
+    $('tbody').sortable({
+
+        placeholder: "ui-state-hightlight",
+        update: function () {
+            var ids = $('tbody').sortable("serialize");
+            var url = "/admin/prices/reorder-pages";
+            
+            $.post(url, ids);
+        }
+
+    });
+
+</script>
+<p class="text-center">&COPY; Guby Rogers</p>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdn.ckeditor.com/4.7.1/standard/ckeditor.js"></script>
+    <script src="/js/main.js"></script>

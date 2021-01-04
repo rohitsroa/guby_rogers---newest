@@ -1,0 +1,65 @@
+.banner_form_main {width: 75%; float: right;margin-right: 20%; z-index: +1!important;}
+.banner_form {background: rgba(251, 254, 226, 1);width: 100%;border-radius: 6px 72px 5px 72px;padding: 35px;box-sizing: border-box;z-index: +1!important;}
+.footer_top .banner_form {width: 100%;}
+.banner_form .form_title {font-size: 42px;color: #6e4e46;font-weight: 600;text-align: center;text-transform: uppercase;margin-bottom: 20px;}
+.banner_form .form-control:not(textarea), .banner_form .form-control:not(textarea):focus {
+    height: 100px !important;
+    border-color: #6e4e46;
+    border-radius: 4px;
+    background: transparent;
+    border: solid 1px #6e4e46;
+}
+
+.formheight{
+	height: 50px;
+}
+.banner_form .form-control {color: #6e4e46;font-weight: 600;}    
+.msg{
+	height: 150px !important;
+}
+.banner_form .form-group {margin-bottom: 40px;}
+.banner_form textarea, .banner_form textarea:focus {border-color: #6e4e46;border-radius: 4px;resize: none;background: transparent;border: solid 1px #6e4e46;color: #6e4e46;}
+.banner_form .btn {
+	width: 100%;
+	padding: 12px 37px;
+	border-radius: 6px 72px 5px 72px;
+	transition: 0.5s;
+	font-size: 25px;
+	font-weight: 900;
+	color: #fff;
+	text-transform: uppercase;
+	background-image: linear-gradient(to right,#ff9000,#FFBF00);
+	}
+.banner_form .btn:after {display: inline-block; content: ''; background: url(../images/arrow.png); width: 12px; height: 11px;margin: 0 0 0 10px;    position: relative; top: 0px;}
+.help-block {color: #d27777 !important;}
+.banner_form input::-webkit-input-placeholder {
+color: #6e4e46 !important;
+}
+ 
+.banner_form input:-moz-placeholder {
+color: #6e4e46 !important;  
+}
+ 
+.banner_form input::-moz-placeholder {
+color: #6e4e46 !important;  
+}
+ 
+.banner_form input:-ms-input-placeholder {  
+color: #6e4e46 !important;  
+}
+
+.banner_form textarea::-webkit-input-placeholder {
+color: #6e4e46 !important;  
+}
+ 
+.banner_form textarea:-moz-placeholder {
+color: #6e4e46 !important;    
+}
+ 
+.banner_form textarea::-moz-placeholder {
+color: #6e4e46 !important;  
+}
+ 
+.banner_form textarea:-ms-input-placeholder {  
+color: #6e4e46 !important;  
+}

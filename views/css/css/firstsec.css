@@ -1,0 +1,68 @@
+.carouselTop-item {
+    position: relative;
+    height: 300px;
+    display: none;
+    float: left;
+    width: 100%;
+    z-index: -1;
+     
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: -webkit-transform 0.6s ease-in-out;
+    -o-transition: transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out; }
+    @media screen and (prefers-reduced-motion: reduce) {
+      .carouselTop-item {
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none; } }
+  
+  .carouselTop-item.active,
+  .carouseTopl-item-next,
+  .carouselTop-item-prev {
+    display: block; }
+  
+  .carouselTop-item-next:not(.carousel-item-left),
+  .active.carouselTop-item-right {
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%); }
+  
+  .carouselTop-item-prev:not(.carousel-item-right),
+  .active.carouselTop-item-left {
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%); }
+  
+  .carousel-fade .carousel-item {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none; }
+  
+  .carousel-fade .carousel-item.active,
+  .carousel-fade .carousel-item-next.carousel-item-left,
+  .carousel-fade .carousel-item-prev.carousel-item-right {
+    z-index: 1;
+    opacity: 1; }
+  
+  .carousel-fade .active.carousel-item-left,
+  .carousel-fade .active.carousel-item-right {
+    z-index: 0;
+    opacity: 0;
+    -webkit-transition: 0s 0.6s opacity;
+    -o-transition: 0s 0.6s opacity;
+    transition: 0s 0.6s opacity; }
+    @media screen and (prefers-reduced-motion: reduce) {
+      .carousel-fade .active.carousel-item-left,
+      .carousel-fade .active.carousel-item-right {
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none; } }
+  

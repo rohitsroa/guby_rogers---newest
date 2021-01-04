@@ -1,0 +1,387 @@
+
+.container_self{
+  max-width: 100%;
+  
+}
+.top_left{
+  font-size: 10px;
+}
+.body{
+  padding: 1350px;
+}
+
+.navbarself{
+  top: 0em;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(189, 19, 19);
+}
+.contact_details{
+  padding-top: 40px;
+}
+
+.heading_self{
+justify-content: center;
+align-items: center;
+text-align: center;
+font-weight: bolder;
+font-size: 70px;
+color:#085a9c;
+}
+.price-section-self {
+  padding: 7em 0;
+  position: relative; 
+  background-color: #DCDCDC;        
+}
+@media (max-width: 767.98px) 
+  
+{
+  .price-section-self {
+      padding: 6em 0; 
+    
+    } 
+}     
+  
+  
+.ftco-section-FAQ{
+padding-top: 50px;
+
+background-color: #e6f5ff;
+
+}
+.ftco-section-pricing{
+  padding: 7em 0;
+  position: relative; 
+  background-color: #ffffff;        
+}
+  @media (max-width: 767.98px) {
+    .ftco-section {
+      padding: 6em 0; 
+    
+  } 
+}
+.contact-info{
+  padding-top: 100px;
+}
+.ftco-welcome{
+color: #ffffff;
+border: solid 5px;
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  vertical-align: middle;
+ background-image: url("https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); 
+ background-repeat: no-repeat;
+ background-size: 50% 100%;
+
+}
+.about-text{
+  font-size: 20px;
+  margin: 50px!important;
+}
+.offer-text{
+  padding-left: 30px;
+  padding-top: 50px;
+  font-size: 25px;
+  color: black;
+  font-weight: bolder;
+}
+.ftco-section-whychoose{
+  background-color: #3dcffb;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.howwork-subheading{
+
+color: #085a9c;
+font-weight: bolder;
+font-size: 70px;
+text-underline-position: below;
+text-align: center!important;
+
+}
+.why-choose-heading{
+  color: #085a9c;
+  font-weight: bolder;
+  font-size: 75px;
+  
+  
+}
+.container-whychoose{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.company-logo{
+  justify-content: center;
+  padding-left: 800px;
+}
+.container-contact-last{
+  align-content: center;
+  padding-left:50px!important;
+}
+
+.container-aboutus{
+  margin: 20px!important;
+  padding-left: 50px!important;
+  padding-right: 50px !important;
+}
+.center{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+
+.what_offer_box{
+width: 200%;
+margin: 25px;
+background-color: white;
+margin-left: 125px;
+padding: 10px;
+padding-top: 30px;
+border: solid 2px;
+border-color: #0052cc;
+border-radius: 30px;
+}
+.whatoffertextheading{
+font-size: 20px;
+font-weight: 900;
+color: black;
+text-align: center;
+}
+.about-image{
+border:solid 5px;
+border-radius: 30px;
+border-color:#4582ec;
+}
+.whatOffer{
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 40px;
+margin-bottom: 40px;
+padding-top: 50px;
+padding-bottom: 50px;
+padding-left: 50px;
+padding-right: 50px;
+
+}
+.WhatOfferContainer{
+width: 100%;
+align-content: center;
+align-items: center;
+margin: 20px;
+}
+.HowWorks{
+background-color: #45d1fd;
+margin-top: 40px;
+margin-bottom: 40px;
+padding-left: 10px;
+padding-right: 20px;
+padding-top: 50px;
+padding-bottom: 50px;
+background-image: url("https://www.preciousresume.com/images/workbg.jpg");
+}
+.testmonialsection{
+border : solid 5px;
+border-color: #009900;
+border-radius: 30px;
+margin-left: 40px;
+margin-right: 20px;
+margin-top: 40px;
+margin-bottom: 40px;
+padding-top: 30px;
+background-image: url("https://www.iwebsynthesis.com/img/A/backgrounds/background10.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.collegePartners{
+padding-bottom: 40px;
+padding-top: 40px;
+padding-left: 150px;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 40px;
+margin-bottom: 40px;
+
+
+}
+.collegeContent{
+padding-top: 20px;
+padding-bottom: 20px;
+margin-left: 25px;
+margin-right: 25px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+@media(max-width: 1366px;){
+  .collegeContent{
+    zoom : 77%;
+  }
+}
+.pricingSection{
+border: solid 5px #000000;
+border-radius: 30px;
+background-color: #f2f2f2;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 40px;
+margin-bottom: 40px;
+
+}
+.collegeCard{
+border: solid 2px!important;
+border-radius: 30px!important;
+border-color: blue!important;
+margin: 15px;
+padding: 5px;
+
+
+}
+.whatOfferIndividualBox{
+border: solid 2px!important;
+border-radius: 30px!important;
+border-color: blue!important;
+margin: 50px;
+
+}
+.contactUsBox{
+border: solid 2px;
+margin: 50px;
+border-radius: 15px;
+border-color: black;
+padding: 1px!important;
+}
+
+.collegePartners{
+  padding-left: 150px;
+}
+@media(max-width : 1366px){
+  .collegePartners{
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+.timelineComponentSpl{
+  padding-top: 30px;
+  padding-left: 10px;
+}
+.ProcessText{
+  margin:15px!important;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+.PricingFont{
+  font-size: 22px;
+  
+}
+.WelcomeAbout{
+  width: 100%!important;
+  visibility: 0.1;
+}
+.navText{
+  font-size: 22px;
+}
+.FAQFont{
+  font-size: 22px;
+}
+.WelcomeHeading{
+  color: #ffbf00;
+font-weight: bolder;
+font-size: 70px;
+text-underline-position: below;
+text-align: center!important;
+}
+html,
+		body {
+			max-width: 100%;
+			zoom: .77;
+			overflow-x: hidden;
+			
+		}
+	
+
+.ProcessImg{
+padding-left: 10%;
+}
+.containerProcess{
+  align-items: center;
+}
+@media(max-width : 1366px){
+  html,.body{
+    zoom: 0.71;
+  }
+}
+.ProcessImgOrder{
+padding-left: 27%;
+}
+.ProcessImgBackEnd{
+  padding-left: 30%;
+}
+.PricingHeadingFont{
+  font-weight: 900;
+}
+.FAQuestion{
+  font-size: 25px;
+}
+.GDTrainingImage{
+  padding-top: 4%;
+}
+.PersonalInterviewTraining{
+  padding-top: 4%;
+}
+.BodyLangTraining{
+  padding-top: 3.5%;
+}
+.ResumeWritingImage{
+  padding-top: 1.5%;
+}
+.resumeWriting{
+  padding: 0.4%;
+}
+.linkedinOptimization{
+  padding: 0.2%;
+}
+.LinkedinOptimizationImage{
+  padding-top: 1.5%;
+}
+.videoResume{
+  padding: 0.4%;
+}
+.CollegePartnersImage{
+  padding-top: 4.2%;
+}
+.CollegeWebinarsImage{
+  padding-top: 2%;
+}
+.SriAurobindoImage{
+  padding-top: 2%;
+}
+.sriVenkyImage{
+  padding-top: 1.2%;
+}
+.jankiDeviImage{
+  padding-top: 1.5%;
+}
+.ssccImage{
+  padding-top: 1.2%;
+}
+
+
+.modalBox{
+  border: 2px solid !important;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888888;
+}
+.WebContainer{
+  width: 100%;
+  height: auto;
+}
+.articles{
+  width:90%; /*Takes 90% width from WebContainer*/
+  height: auto;
+  margin: auto;
+} 
